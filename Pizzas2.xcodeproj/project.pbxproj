@@ -12,6 +12,12 @@
 		5AF189101E6E421500D6514A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF1890E1E6E421500D6514A /* Main.storyboard */; };
 		5AF189121E6E421500D6514A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF189111E6E421500D6514A /* Assets.xcassets */; };
 		5AF189151E6E421500D6514A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF189131E6E421500D6514A /* LaunchScreen.storyboard */; };
+		5AF189221E6E424900D6514A /* Queso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1891C1E6E424900D6514A /* Queso.swift */; };
+		5AF189231E6E424900D6514A /* Eleccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1891D1E6E424900D6514A /* Eleccion.swift */; };
+		5AF189241E6E424900D6514A /* Tamano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1891E1E6E424900D6514A /* Tamano.swift */; };
+		5AF189251E6E424900D6514A /* Masa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1891F1E6E424900D6514A /* Masa.swift */; };
+		5AF189261E6E424900D6514A /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF189201E6E424900D6514A /* Ingredientes.swift */; };
+		5AF189271E6E424900D6514A /* Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF189211E6E424900D6514A /* Final.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		5AF189111E6E421500D6514A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AF189141E6E421500D6514A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AF189161E6E421500D6514A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF1891C1E6E424900D6514A /* Queso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queso.swift; sourceTree = "<group>"; };
+		5AF1891D1E6E424900D6514A /* Eleccion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eleccion.swift; sourceTree = "<group>"; };
+		5AF1891E1E6E424900D6514A /* Tamano.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tamano.swift; sourceTree = "<group>"; };
+		5AF1891F1E6E424900D6514A /* Masa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Masa.swift; sourceTree = "<group>"; };
+		5AF189201E6E424900D6514A /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
+		5AF189211E6E424900D6514A /* Final.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Final.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				5AF189111E6E421500D6514A /* Assets.xcassets */,
 				5AF189131E6E421500D6514A /* LaunchScreen.storyboard */,
 				5AF189161E6E421500D6514A /* Info.plist */,
+				5AF1891C1E6E424900D6514A /* Queso.swift */,
+				5AF1891D1E6E424900D6514A /* Eleccion.swift */,
+				5AF1891E1E6E424900D6514A /* Tamano.swift */,
+				5AF1891F1E6E424900D6514A /* Masa.swift */,
+				5AF189201E6E424900D6514A /* Ingredientes.swift */,
+				5AF189211E6E424900D6514A /* Final.swift */,
 			);
 			path = Pizzas2;
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF189271E6E424900D6514A /* Final.swift in Sources */,
 				5AF1890D1E6E421500D6514A /* ViewController.swift in Sources */,
+				5AF189221E6E424900D6514A /* Queso.swift in Sources */,
 				5AF1890B1E6E421500D6514A /* AppDelegate.swift in Sources */,
+				5AF189241E6E424900D6514A /* Tamano.swift in Sources */,
+				5AF189261E6E424900D6514A /* Ingredientes.swift in Sources */,
+				5AF189231E6E424900D6514A /* Eleccion.swift in Sources */,
+				5AF189251E6E424900D6514A /* Masa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +288,7 @@
 				DEVELOPMENT_TEAM = 95396P575U;
 				INFOPLIST_FILE = Pizzas2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = deom.Pizzas2;
+				PRODUCT_BUNDLE_IDENTIFIER = Pizzas2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -277,7 +301,7 @@
 				DEVELOPMENT_TEAM = 95396P575U;
 				INFOPLIST_FILE = Pizzas2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = deom.Pizzas2;
+				PRODUCT_BUNDLE_IDENTIFIER = Pizzas2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
