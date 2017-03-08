@@ -9,9 +9,24 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Pizzas2WK (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pizzas2WK.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>5A8F055C1E704E700070FA00</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5AF189061E6E421500D6514A</key>
 		<dict>
 			<key>primary</key>

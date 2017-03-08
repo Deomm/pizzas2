@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A8F05611E704E700070FA00 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8F055F1E704E700070FA00 /* Interface.storyboard */; };
+		5A8F05631E704E700070FA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8F05621E704E700070FA00 /* Assets.xcassets */; };
+		5A8F056A1E704E700070FA00 /* Pizzas2WK Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5A8F05691E704E700070FA00 /* Pizzas2WK Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A8F05711E704E710070FA00 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05701E704E710070FA00 /* InterfaceController.swift */; };
+		5A8F05731E704E710070FA00 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05721E704E710070FA00 /* ExtensionDelegate.swift */; };
+		5A8F05751E704E710070FA00 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05741E704E710070FA00 /* NotificationController.swift */; };
+		5A8F05771E704E710070FA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8F05761E704E710070FA00 /* Assets.xcassets */; };
+		5A8F057B1E704E710070FA00 /* Pizzas2WK.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5A8F055D1E704E700070FA00 /* Pizzas2WK.app */; };
+		5A8F05851E70516D0070FA00 /* Tamaño.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05841E70516D0070FA00 /* Tamaño.swift */; };
+		5A8F05871E7051790070FA00 /* Masa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05861E7051790070FA00 /* Masa.swift */; };
+		5A8F05891E7051860070FA00 /* Queso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05881E7051850070FA00 /* Queso.swift */; };
+		5A8F058B1E7051940070FA00 /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F058A1E7051940070FA00 /* Ingredientes.swift */; };
+		5A8F058D1E7051F30070FA00 /* Comprobación.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F058C1E7051F30070FA00 /* Comprobación.swift */; };
+		5A8F058F1E7051FD0070FA00 /* Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F058E1E7051FD0070FA00 /* Final.swift */; };
 		5AF1890B1E6E421500D6514A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1890A1E6E421500D6514A /* AppDelegate.swift */; };
 		5AF1890D1E6E421500D6514A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1890C1E6E421500D6514A /* ViewController.swift */; };
 		5AF189101E6E421500D6514A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF1890E1E6E421500D6514A /* Main.storyboard */; };
@@ -20,7 +34,66 @@
 		5AF189271E6E424900D6514A /* Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF189211E6E424900D6514A /* Final.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5A8F056B1E704E700070FA00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AF188FF1E6E421500D6514A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A8F05681E704E700070FA00;
+			remoteInfo = "Pizzas2WK Extension";
+		};
+		5A8F05791E704E710070FA00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AF188FF1E6E421500D6514A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A8F055C1E704E700070FA00;
+			remoteInfo = Pizzas2WK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A8F05811E704E710070FA00 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5A8F056A1E704E700070FA00 /* Pizzas2WK Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8F05831E704E710070FA00 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5A8F057B1E704E710070FA00 /* Pizzas2WK.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5A8F055D1E704E700070FA00 /* Pizzas2WK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizzas2WK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8F05601E704E700070FA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5A8F05621E704E700070FA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A8F05641E704E700070FA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A8F05691E704E700070FA00 /* Pizzas2WK Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pizzas2WK Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8F056F1E704E710070FA00 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5A8F05701E704E710070FA00 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5A8F05721E704E710070FA00 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		5A8F05741E704E710070FA00 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5A8F05761E704E710070FA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A8F05781E704E710070FA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A8F05841E70516D0070FA00 /* Tamaño.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tamaño.swift"; sourceTree = "<group>"; };
+		5A8F05861E7051790070FA00 /* Masa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Masa.swift; sourceTree = "<group>"; };
+		5A8F05881E7051850070FA00 /* Queso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queso.swift; sourceTree = "<group>"; };
+		5A8F058A1E7051940070FA00 /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
+		5A8F058C1E7051F30070FA00 /* Comprobación.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Comprobación.swift"; sourceTree = "<group>"; };
+		5A8F058E1E7051FD0070FA00 /* Final.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Final.swift; sourceTree = "<group>"; };
 		5AF189071E6E421500D6514A /* Pizzas2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizzas2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF1890A1E6E421500D6514A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AF1890C1E6E421500D6514A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +110,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5A8F05661E704E700070FA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5AF189041E6E421500D6514A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,10 +127,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A8F055E1E704E700070FA00 /* Pizzas2WK */ = {
+			isa = PBXGroup;
+			children = (
+				5A8F055F1E704E700070FA00 /* Interface.storyboard */,
+				5A8F05621E704E700070FA00 /* Assets.xcassets */,
+				5A8F05641E704E700070FA00 /* Info.plist */,
+			);
+			path = Pizzas2WK;
+			sourceTree = "<group>";
+		};
+		5A8F056D1E704E700070FA00 /* Pizzas2WK Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5A8F05701E704E710070FA00 /* InterfaceController.swift */,
+				5A8F05721E704E710070FA00 /* ExtensionDelegate.swift */,
+				5A8F05741E704E710070FA00 /* NotificationController.swift */,
+				5A8F05761E704E710070FA00 /* Assets.xcassets */,
+				5A8F05781E704E710070FA00 /* Info.plist */,
+				5A8F056E1E704E700070FA00 /* Supporting Files */,
+				5A8F05841E70516D0070FA00 /* Tamaño.swift */,
+				5A8F05861E7051790070FA00 /* Masa.swift */,
+				5A8F05881E7051850070FA00 /* Queso.swift */,
+				5A8F058A1E7051940070FA00 /* Ingredientes.swift */,
+				5A8F058C1E7051F30070FA00 /* Comprobación.swift */,
+				5A8F058E1E7051FD0070FA00 /* Final.swift */,
+			);
+			path = "Pizzas2WK Extension";
+			sourceTree = "<group>";
+		};
+		5A8F056E1E704E700070FA00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A8F056F1E704E710070FA00 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		5AF188FE1E6E421500D6514A = {
 			isa = PBXGroup;
 			children = (
 				5AF189091E6E421500D6514A /* Pizzas2 */,
+				5A8F055E1E704E700070FA00 /* Pizzas2WK */,
+				5A8F056D1E704E700070FA00 /* Pizzas2WK Extension */,
 				5AF189081E6E421500D6514A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				5AF189071E6E421500D6514A /* Pizzas2.app */,
+				5A8F055D1E704E700070FA00 /* Pizzas2WK.app */,
+				5A8F05691E704E700070FA00 /* Pizzas2WK Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +206,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5A8F055C1E704E700070FA00 /* Pizzas2WK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8F05821E704E710070FA00 /* Build configuration list for PBXNativeTarget "Pizzas2WK" */;
+			buildPhases = (
+				5A8F055B1E704E700070FA00 /* Resources */,
+				5A8F05811E704E710070FA00 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A8F056C1E704E700070FA00 /* PBXTargetDependency */,
+			);
+			name = Pizzas2WK;
+			productName = Pizzas2WK;
+			productReference = 5A8F055D1E704E700070FA00 /* Pizzas2WK.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5A8F05681E704E700070FA00 /* Pizzas2WK Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8F05801E704E710070FA00 /* Build configuration list for PBXNativeTarget "Pizzas2WK Extension" */;
+			buildPhases = (
+				5A8F05651E704E700070FA00 /* Sources */,
+				5A8F05661E704E700070FA00 /* Frameworks */,
+				5A8F05671E704E700070FA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pizzas2WK Extension";
+			productName = "Pizzas2WK Extension";
+			productReference = 5A8F05691E704E700070FA00 /* Pizzas2WK Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		5AF189061E6E421500D6514A /* Pizzas2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AF189191E6E421500D6514A /* Build configuration list for PBXNativeTarget "Pizzas2" */;
@@ -92,10 +247,12 @@
 				5AF189031E6E421500D6514A /* Sources */,
 				5AF189041E6E421500D6514A /* Frameworks */,
 				5AF189051E6E421500D6514A /* Resources */,
+				5A8F05831E704E710070FA00 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5A8F057A1E704E710070FA00 /* PBXTargetDependency */,
 			);
 			name = Pizzas2;
 			productName = Pizzas2;
@@ -112,6 +269,16 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "David Osses Mena";
 				TargetAttributes = {
+					5A8F055C1E704E700070FA00 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 95396P575U;
+						ProvisioningStyle = Automatic;
+					};
+					5A8F05681E704E700070FA00 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 95396P575U;
+						ProvisioningStyle = Automatic;
+					};
 					5AF189061E6E421500D6514A = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 95396P575U;
@@ -133,11 +300,30 @@
 			projectRoot = "";
 			targets = (
 				5AF189061E6E421500D6514A /* Pizzas2 */,
+				5A8F055C1E704E700070FA00 /* Pizzas2WK */,
+				5A8F05681E704E700070FA00 /* Pizzas2WK Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5A8F055B1E704E700070FA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8F05631E704E700070FA00 /* Assets.xcassets in Resources */,
+				5A8F05611E704E700070FA00 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8F05671E704E700070FA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8F05771E704E710070FA00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5AF189051E6E421500D6514A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -151,6 +337,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5A8F05651E704E700070FA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8F058F1E7051FD0070FA00 /* Final.swift in Sources */,
+				5A8F05751E704E710070FA00 /* NotificationController.swift in Sources */,
+				5A8F05891E7051860070FA00 /* Queso.swift in Sources */,
+				5A8F05731E704E710070FA00 /* ExtensionDelegate.swift in Sources */,
+				5A8F058D1E7051F30070FA00 /* Comprobación.swift in Sources */,
+				5A8F05711E704E710070FA00 /* InterfaceController.swift in Sources */,
+				5A8F058B1E7051940070FA00 /* Ingredientes.swift in Sources */,
+				5A8F05851E70516D0070FA00 /* Tamaño.swift in Sources */,
+				5A8F05871E7051790070FA00 /* Masa.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5AF189031E6E421500D6514A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,7 +370,28 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5A8F056C1E704E700070FA00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A8F05681E704E700070FA00 /* Pizzas2WK Extension */;
+			targetProxy = 5A8F056B1E704E700070FA00 /* PBXContainerItemProxy */;
+		};
+		5A8F057A1E704E710070FA00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A8F055C1E704E700070FA00 /* Pizzas2WK */;
+			targetProxy = 5A8F05791E704E710070FA00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		5A8F055F1E704E700070FA00 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A8F05601E704E700070FA00 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		5AF1890E1E6E421500D6514A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -188,6 +411,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5A8F057C1E704E710070FA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95396P575U;
+				IBSC_MODULE = Pizzas2WK_Extension;
+				INFOPLIST_FILE = Pizzas2WK/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = Pizzas2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		5A8F057D1E704E710070FA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95396P575U;
+				IBSC_MODULE = Pizzas2WK_Extension;
+				INFOPLIST_FILE = Pizzas2WK/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = Pizzas2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		5A8F057E1E704E710070FA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 95396P575U;
+				INFOPLIST_FILE = "Pizzas2WK Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pizzas2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		5A8F057F1E704E710070FA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 95396P575U;
+				INFOPLIST_FILE = "Pizzas2WK Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pizzas2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
 		5AF189171E6E421500D6514A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -310,6 +603,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5A8F05801E704E710070FA00 /* Build configuration list for PBXNativeTarget "Pizzas2WK Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8F057E1E704E710070FA00 /* Debug */,
+				5A8F057F1E704E710070FA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A8F05821E704E710070FA00 /* Build configuration list for PBXNativeTarget "Pizzas2WK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8F057C1E704E710070FA00 /* Debug */,
+				5A8F057D1E704E710070FA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5AF189021E6E421500D6514A /* Build configuration list for PBXProject "Pizzas2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -326,6 +635,7 @@
 				5AF1891B1E6E421500D6514A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

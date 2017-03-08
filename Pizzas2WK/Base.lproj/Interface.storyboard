@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Pizzas2WK" customModuleProvider="target">
+                    <items>
+                        <label width="136" height="29" alignment="left" text="Crea tu pizza" textAlignment="center" id="FF3-8G-1RW"/>
+                        <label width="136" height="49" alignment="left" text="Puedes armarla como quieras" textAlignment="center" numberOfLines="2" id="Jgn-1C-kQ3">
+                            <color key="textColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                        </label>
+                        <button width="1" alignment="left" title="Comenzar" id="rGs-uj-9rT">
+                            <connections>
+                                <segue destination="82a-P8-PDb" kind="push" id="vX6-So-0Jo"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="V6e-FW-d4n">
+            <objects>
+                <controller id="82a-P8-PDb">
+                    <items>
+                        <label width="136" height="28" alignment="left" text="Elige el tamaño" textAlignment="center" id="INT-71-bVF"/>
+                        <button width="1" alignment="left" title="Chica" id="Wrt-Dd-9Nr"/>
+                        <button width="1" alignment="left" title="Mediana" id="19T-oF-rQZ"/>
+                        <button width="1" alignment="left" title="Grande" id="d3S-za-VBU"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="484" y="345"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="z5L-GO-0yh">
+            <objects>
+                <controller id="e61-Eb-7ZS">
+                    <items>
+                        <label width="136" height="28" alignment="left" text="Elige la masa" textAlignment="center" id="1am-46-h96"/>
+                        <button width="1" alignment="left" title="Delgada" id="cpL-pL-Lqh"/>
+                        <button width="1" alignment="left" title="Crujiente" id="QRj-kH-xUU"/>
+                        <button width="1" alignment="left" title="Gruesa" id="cLm-cD-jFP"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="747" y="346"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="rEU-Ce-jGF">
+            <objects>
+                <controller id="2WR-z8-NZH">
+                    <items>
+                        <label width="136" height="28" alignment="left" text="Elige el queso" textAlignment="center" id="fBV-Um-uEK"/>
+                        <button width="1" alignment="left" title="Mozarela" id="ind-3O-eDM"/>
+                        <button width="1" alignment="left" title="Cheddar" id="AUn-SV-Z5s"/>
+                        <button width="1" alignment="left" title="Parmesano" id="DfH-YN-CQ9"/>
+                        <button width="1" alignment="left" title="Sin queso" id="4oO-9z-cfN"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="998" y="348"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="FXw-ph-uLu">
+            <objects>
+                <controller id="qRE-M7-5yx">
+                    <items>
+                        <label width="136" height="43" alignment="left" text="Elige hasta 5 ingredientes" textAlignment="center" numberOfLines="2" id="Ruu-lM-A5O"/>
+                        <button width="1" alignment="left" title="Jamón" id="jwr-Kg-Te0"/>
+                        <button width="1" alignment="left" title="Pavo" id="qbF-Zv-uM7"/>
+                        <button width="1" alignment="left" title="Tocino" id="LED-7W-0gN"/>
+                        <button width="1" alignment="left" title="Aceituna" id="IK6-H8-yA5"/>
+                        <button width="1" alignment="left" title="Pepperoni" id="FWw-50-jsu"/>
+                        <button width="1" alignment="left" title="Pimiento" id="lOP-fs-tMb"/>
+                        <button width="1" alignment="left" title="Anchoa" id="gwD-6M-7gg"/>
+                        <button width="1" alignment="left" title="Piña" id="w6z-sR-s9C"/>
+                        <button width="1" alignment="left" title="Cebolla" id="ZZB-11-4CE"/>
+                        <button width="1" alignment="left" title="Salchicha" id="IK2-yE-nCk"/>
+                        <label width="136" alignment="left" text="Selección:" textAlignment="center" id="W4g-zA-0kj"/>
+                        <label width="136" alignment="left" text="Label" textAlignment="center" id="3rO-qJ-qLA"/>
+                        <label width="136" alignment="left" text="Label" textAlignment="center" id="CaE-6S-rgY"/>
+                        <label width="136" alignment="left" text="Label" textAlignment="center" id="2Bm-Kk-D0Y"/>
+                        <label width="136" alignment="left" text="Label" textAlignment="center" id="EN0-fe-BBc"/>
+                        <label width="136" alignment="left" text="Label" textAlignment="center" id="iNo-uO-mde"/>
+                        <button width="1" alignment="left" title="Finalizar" id="LLg-9l-X5e"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1273" y="355"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="NHJ-2S-n32">
+            <objects>
+                <controller id="gOs-ar-2xB"/>
+            </objects>
+            <point key="canvasLocation" x="1553" y="349"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="fVK-Ju-MRf">
+            <objects>
+                <controller id="wxb-bv-diq"/>
+            </objects>
+            <point key="canvasLocation" x="1844" y="349"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Xk1-DH-ucf">
+            <objects>
+                <controller id="J1h-qh-0W9"/>
+            </objects>
+            <point key="canvasLocation" x="2101" y="349"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Pizzas2WK" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>
