@@ -15,12 +15,12 @@
 		5A8F05751E704E710070FA00 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05741E704E710070FA00 /* NotificationController.swift */; };
 		5A8F05771E704E710070FA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8F05761E704E710070FA00 /* Assets.xcassets */; };
 		5A8F057B1E704E710070FA00 /* Pizzas2WK.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5A8F055D1E704E700070FA00 /* Pizzas2WK.app */; };
-		5A8F05851E70516D0070FA00 /* Tamaño.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05841E70516D0070FA00 /* Tamaño.swift */; };
 		5A8F05871E7051790070FA00 /* Masa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05861E7051790070FA00 /* Masa.swift */; };
 		5A8F05891E7051860070FA00 /* Queso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05881E7051850070FA00 /* Queso.swift */; };
 		5A8F058B1E7051940070FA00 /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F058A1E7051940070FA00 /* Ingredientes.swift */; };
 		5A8F058D1E7051F30070FA00 /* Comprobación.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F058C1E7051F30070FA00 /* Comprobación.swift */; };
 		5A8F058F1E7051FD0070FA00 /* Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F058E1E7051FD0070FA00 /* Final.swift */; };
+		5A8F05931E7052750070FA00 /* Tamaño.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05921E7052750070FA00 /* Tamaño.swift */; };
 		5AF1890B1E6E421500D6514A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1890A1E6E421500D6514A /* AppDelegate.swift */; };
 		5AF1890D1E6E421500D6514A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1890C1E6E421500D6514A /* ViewController.swift */; };
 		5AF189101E6E421500D6514A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF1890E1E6E421500D6514A /* Main.storyboard */; };
@@ -88,12 +88,12 @@
 		5A8F05741E704E710070FA00 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		5A8F05761E704E710070FA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A8F05781E704E710070FA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A8F05841E70516D0070FA00 /* Tamaño.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tamaño.swift"; sourceTree = "<group>"; };
 		5A8F05861E7051790070FA00 /* Masa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Masa.swift; sourceTree = "<group>"; };
 		5A8F05881E7051850070FA00 /* Queso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queso.swift; sourceTree = "<group>"; };
 		5A8F058A1E7051940070FA00 /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
 		5A8F058C1E7051F30070FA00 /* Comprobación.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Comprobación.swift"; sourceTree = "<group>"; };
 		5A8F058E1E7051FD0070FA00 /* Final.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Final.swift; sourceTree = "<group>"; };
+		5A8F05921E7052750070FA00 /* Tamaño.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tamaño.swift"; sourceTree = "<group>"; };
 		5AF189071E6E421500D6514A /* Pizzas2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizzas2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF1890A1E6E421500D6514A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AF1890C1E6E421500D6514A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,15 +143,15 @@
 				5A8F05701E704E710070FA00 /* InterfaceController.swift */,
 				5A8F05721E704E710070FA00 /* ExtensionDelegate.swift */,
 				5A8F05741E704E710070FA00 /* NotificationController.swift */,
-				5A8F05761E704E710070FA00 /* Assets.xcassets */,
-				5A8F05781E704E710070FA00 /* Info.plist */,
-				5A8F056E1E704E700070FA00 /* Supporting Files */,
-				5A8F05841E70516D0070FA00 /* Tamaño.swift */,
 				5A8F05861E7051790070FA00 /* Masa.swift */,
 				5A8F05881E7051850070FA00 /* Queso.swift */,
 				5A8F058A1E7051940070FA00 /* Ingredientes.swift */,
 				5A8F058C1E7051F30070FA00 /* Comprobación.swift */,
 				5A8F058E1E7051FD0070FA00 /* Final.swift */,
+				5A8F05921E7052750070FA00 /* Tamaño.swift */,
+				5A8F05761E704E710070FA00 /* Assets.xcassets */,
+				5A8F05781E704E710070FA00 /* Info.plist */,
+				5A8F056E1E704E700070FA00 /* Supporting Files */,
 			);
 			path = "Pizzas2WK Extension";
 			sourceTree = "<group>";
@@ -344,11 +344,11 @@
 				5A8F058F1E7051FD0070FA00 /* Final.swift in Sources */,
 				5A8F05751E704E710070FA00 /* NotificationController.swift in Sources */,
 				5A8F05891E7051860070FA00 /* Queso.swift in Sources */,
+				5A8F05931E7052750070FA00 /* Tamaño.swift in Sources */,
 				5A8F05731E704E710070FA00 /* ExtensionDelegate.swift in Sources */,
 				5A8F058D1E7051F30070FA00 /* Comprobación.swift in Sources */,
 				5A8F05711E704E710070FA00 /* InterfaceController.swift in Sources */,
 				5A8F058B1E7051940070FA00 /* Ingredientes.swift in Sources */,
-				5A8F05851E70516D0070FA00 /* Tamaño.swift in Sources */,
 				5A8F05871E7051790070FA00 /* Masa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
