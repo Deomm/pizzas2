@@ -15,12 +15,13 @@
 		5A8F05751E704E710070FA00 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05741E704E710070FA00 /* NotificationController.swift */; };
 		5A8F05771E704E710070FA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8F05761E704E710070FA00 /* Assets.xcassets */; };
 		5A8F057B1E704E710070FA00 /* Pizzas2WK.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5A8F055D1E704E700070FA00 /* Pizzas2WK.app */; };
-		5A8F05F21E7055390070FA00 /* Tamaño.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05F11E7055390070FA00 /* Tamaño.swift */; };
-		5A8F05F41E7055480070FA00 /* Masa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05F31E7055480070FA00 /* Masa.swift */; };
-		5A8F05F61E7055560070FA00 /* Queso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05F51E7055560070FA00 /* Queso.swift */; };
-		5A8F05F81E7055670070FA00 /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05F71E7055670070FA00 /* Ingredientes.swift */; };
-		5A8F05FA1E7055750070FA00 /* Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05F91E7055750070FA00 /* Final.swift */; };
-		5A8F05FC1E7055870070FA00 /* Comprobación.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05FB1E7055870070FA00 /* Comprobación.swift */; };
+		5A8F05FE1E7056B60070FA00 /* Tamaño.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05FD1E7056B60070FA00 /* Tamaño.swift */; };
+		5A8F06001E7056C40070FA00 /* MasaInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F05FF1E7056C40070FA00 /* MasaInterfaceController.swift */; };
+		5A8F06021E7056DF0070FA00 /* QuesoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F06011E7056DF0070FA00 /* QuesoInterfaceController.swift */; };
+		5A8F06041E7056EA0070FA00 /* IngredientesInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F06031E7056EA0070FA00 /* IngredientesInterfaceController.swift */; };
+		5A8F06061E7056F80070FA00 /* ComprobaciónInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F06051E7056F80070FA00 /* ComprobaciónInterfaceController.swift */; };
+		5A8F06081E7057030070FA00 /* FinalInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F06071E7057030070FA00 /* FinalInterfaceController.swift */; };
+		5A8F060A1E70BBF50070FA00 /* Valores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8F06091E70BBF50070FA00 /* Valores.swift */; };
 		5AF1890B1E6E421500D6514A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1890A1E6E421500D6514A /* AppDelegate.swift */; };
 		5AF1890D1E6E421500D6514A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1890C1E6E421500D6514A /* ViewController.swift */; };
 		5AF189101E6E421500D6514A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF1890E1E6E421500D6514A /* Main.storyboard */; };
@@ -88,12 +89,13 @@
 		5A8F05741E704E710070FA00 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		5A8F05761E704E710070FA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A8F05781E704E710070FA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A8F05F11E7055390070FA00 /* Tamaño.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tamaño.swift"; sourceTree = "<group>"; };
-		5A8F05F31E7055480070FA00 /* Masa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Masa.swift; sourceTree = "<group>"; };
-		5A8F05F51E7055560070FA00 /* Queso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queso.swift; sourceTree = "<group>"; };
-		5A8F05F71E7055670070FA00 /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
-		5A8F05F91E7055750070FA00 /* Final.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Final.swift; sourceTree = "<group>"; };
-		5A8F05FB1E7055870070FA00 /* Comprobación.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Comprobación.swift"; sourceTree = "<group>"; };
+		5A8F05FD1E7056B60070FA00 /* Tamaño.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tamaño.swift"; sourceTree = "<group>"; };
+		5A8F05FF1E7056C40070FA00 /* MasaInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaInterfaceController.swift; sourceTree = "<group>"; };
+		5A8F06011E7056DF0070FA00 /* QuesoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoInterfaceController.swift; sourceTree = "<group>"; };
+		5A8F06031E7056EA0070FA00 /* IngredientesInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesInterfaceController.swift; sourceTree = "<group>"; };
+		5A8F06051E7056F80070FA00 /* ComprobaciónInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ComprobaciónInterfaceController.swift"; sourceTree = "<group>"; };
+		5A8F06071E7057030070FA00 /* FinalInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalInterfaceController.swift; sourceTree = "<group>"; };
+		5A8F06091E70BBF50070FA00 /* Valores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Valores.swift; sourceTree = "<group>"; };
 		5AF189071E6E421500D6514A /* Pizzas2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizzas2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF1890A1E6E421500D6514A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AF1890C1E6E421500D6514A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,12 +148,13 @@
 				5A8F05761E704E710070FA00 /* Assets.xcassets */,
 				5A8F05781E704E710070FA00 /* Info.plist */,
 				5A8F056E1E704E700070FA00 /* Supporting Files */,
-				5A8F05F11E7055390070FA00 /* Tamaño.swift */,
-				5A8F05F31E7055480070FA00 /* Masa.swift */,
-				5A8F05F51E7055560070FA00 /* Queso.swift */,
-				5A8F05F71E7055670070FA00 /* Ingredientes.swift */,
-				5A8F05F91E7055750070FA00 /* Final.swift */,
-				5A8F05FB1E7055870070FA00 /* Comprobación.swift */,
+				5A8F05FD1E7056B60070FA00 /* Tamaño.swift */,
+				5A8F05FF1E7056C40070FA00 /* MasaInterfaceController.swift */,
+				5A8F06011E7056DF0070FA00 /* QuesoInterfaceController.swift */,
+				5A8F06031E7056EA0070FA00 /* IngredientesInterfaceController.swift */,
+				5A8F06051E7056F80070FA00 /* ComprobaciónInterfaceController.swift */,
+				5A8F06071E7057030070FA00 /* FinalInterfaceController.swift */,
+				5A8F06091E70BBF50070FA00 /* Valores.swift */,
 			);
 			path = "Pizzas2WK Extension";
 			sourceTree = "<group>";
@@ -341,15 +344,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8F05FA1E7055750070FA00 /* Final.swift in Sources */,
+				5A8F06081E7057030070FA00 /* FinalInterfaceController.swift in Sources */,
 				5A8F05751E704E710070FA00 /* NotificationController.swift in Sources */,
-				5A8F05F61E7055560070FA00 /* Queso.swift in Sources */,
 				5A8F05731E704E710070FA00 /* ExtensionDelegate.swift in Sources */,
+				5A8F06001E7056C40070FA00 /* MasaInterfaceController.swift in Sources */,
+				5A8F060A1E70BBF50070FA00 /* Valores.swift in Sources */,
+				5A8F06061E7056F80070FA00 /* ComprobaciónInterfaceController.swift in Sources */,
+				5A8F06021E7056DF0070FA00 /* QuesoInterfaceController.swift in Sources */,
 				5A8F05711E704E710070FA00 /* InterfaceController.swift in Sources */,
-				5A8F05F81E7055670070FA00 /* Ingredientes.swift in Sources */,
-				5A8F05FC1E7055870070FA00 /* Comprobación.swift in Sources */,
-				5A8F05F21E7055390070FA00 /* Tamaño.swift in Sources */,
-				5A8F05F41E7055480070FA00 /* Masa.swift in Sources */,
+				5A8F06041E7056EA0070FA00 /* IngredientesInterfaceController.swift in Sources */,
+				5A8F05FE1E7056B60070FA00 /* Tamaño.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

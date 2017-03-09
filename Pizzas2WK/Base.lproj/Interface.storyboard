@@ -21,7 +21,7 @@
                         </label>
                         <button width="1" alignment="left" title="Comenzar" id="rGs-uj-9rT">
                             <connections>
-                                <segue destination="82a-P8-PDb" kind="push" id="vX6-So-0Jo"/>
+                                <action selector="comenzar" destination="AgC-eL-Hgc" id="fYL-C9-anD"/>
                             </connections>
                         </button>
                     </items>
@@ -45,97 +45,343 @@
             </objects>
             <point key="canvasLocation" x="220" y="643"/>
         </scene>
-        <!--Interface Controller-->
+        <!--tamañoIdentificador-->
         <scene sceneID="V6e-FW-d4n">
             <objects>
-                <controller id="82a-P8-PDb">
+                <controller identifier="tamañoIdentificador" id="82a-P8-PDb" customClass="Tamaño" customModule="Pizzas2WK_Extension">
                     <items>
                         <label width="136" height="28" alignment="left" text="Elige el tamaño" textAlignment="center" id="INT-71-bVF"/>
-                        <button width="1" alignment="left" title="Chica" id="Wrt-Dd-9Nr"/>
-                        <button width="1" alignment="left" title="Mediana" id="19T-oF-rQZ"/>
-                        <button width="1" alignment="left" title="Grande" id="d3S-za-VBU"/>
+                        <button width="1" alignment="left" title="Chica" id="Wrt-Dd-9Nr">
+                            <connections>
+                                <action selector="chica" destination="82a-P8-PDb" id="DHq-O3-62y"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Mediana" id="19T-oF-rQZ">
+                            <connections>
+                                <action selector="mediana" destination="82a-P8-PDb" id="vCk-eo-de7"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Grande" id="d3S-za-VBU">
+                            <connections>
+                                <action selector="grande" destination="82a-P8-PDb" id="2Qo-Vv-JVU"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="SfU-c9-g5W"/>
+                        <button width="1" alignment="left" title="Finalizar" id="zGa-38-7KW">
+                            <connections>
+                                <action selector="finalizar" destination="82a-P8-PDb" id="5OY-wm-S8H"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
             <point key="canvasLocation" x="484" y="345"/>
         </scene>
-        <!--Interface Controller-->
+        <!--masaIdentificador-->
         <scene sceneID="z5L-GO-0yh">
             <objects>
-                <controller id="e61-Eb-7ZS">
+                <controller identifier="masaIdentificador" id="e61-Eb-7ZS" customClass="MasaInterfaceController" customModule="Pizzas2WK_Extension">
                     <items>
                         <label width="136" height="28" alignment="left" text="Elige la masa" textAlignment="center" id="1am-46-h96"/>
-                        <button width="1" alignment="left" title="Delgada" id="cpL-pL-Lqh"/>
-                        <button width="1" alignment="left" title="Crujiente" id="QRj-kH-xUU"/>
-                        <button width="1" alignment="left" title="Gruesa" id="cLm-cD-jFP"/>
+                        <button width="1" alignment="left" title="Delgada" id="cpL-pL-Lqh">
+                            <connections>
+                                <action selector="delgada" destination="e61-Eb-7ZS" id="qDI-3R-sMa"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Crujiente" id="QRj-kH-xUU">
+                            <connections>
+                                <action selector="crujiente" destination="e61-Eb-7ZS" id="638-k1-Cw0"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Gruesa" id="cLm-cD-jFP">
+                            <connections>
+                                <action selector="gruesa" destination="e61-Eb-7ZS" id="ZNi-lx-lKa"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="6Ne-i0-KRa"/>
+                        <button width="1" alignment="left" title="Finalizar" id="s1E-ba-hfe">
+                            <connections>
+                                <action selector="finalizar" destination="e61-Eb-7ZS" id="2oL-WZ-4uL"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
             <point key="canvasLocation" x="747" y="346"/>
         </scene>
-        <!--Interface Controller-->
+        <!--quesoIdentificador-->
         <scene sceneID="rEU-Ce-jGF">
             <objects>
-                <controller id="2WR-z8-NZH">
+                <controller identifier="quesoIdentificador" id="2WR-z8-NZH" customClass="QuesoInterfaceController" customModule="Pizzas2WK_Extension">
                     <items>
                         <label width="136" height="28" alignment="left" text="Elige el queso" textAlignment="center" id="fBV-Um-uEK"/>
-                        <button width="1" alignment="left" title="Mozarela" id="ind-3O-eDM"/>
-                        <button width="1" alignment="left" title="Cheddar" id="AUn-SV-Z5s"/>
-                        <button width="1" alignment="left" title="Parmesano" id="DfH-YN-CQ9"/>
-                        <button width="1" alignment="left" title="Sin queso" id="4oO-9z-cfN"/>
+                        <button width="1" alignment="left" title="Mozarela" id="ind-3O-eDM">
+                            <connections>
+                                <action selector="mozarela" destination="2WR-z8-NZH" id="Ufy-Qi-u7l"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Cheddar" id="AUn-SV-Z5s">
+                            <connections>
+                                <action selector="cheddar" destination="2WR-z8-NZH" id="llA-hm-3YO"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Parmesano" id="DfH-YN-CQ9">
+                            <connections>
+                                <action selector="parmesano" destination="2WR-z8-NZH" id="SMd-BY-4Z5"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Sin queso" id="4oO-9z-cfN">
+                            <connections>
+                                <action selector="sinQueso" destination="2WR-z8-NZH" id="Hfd-cy-lUV"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="k8W-9E-opp"/>
+                        <button width="1" alignment="left" title="Finalizar" id="HPW-KP-cp0">
+                            <connections>
+                                <action selector="finalizar" destination="2WR-z8-NZH" id="FtB-58-yqX"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
             <point key="canvasLocation" x="998" y="348"/>
         </scene>
-        <!--Interface Controller-->
+        <!--ingredientesIdentificador-->
         <scene sceneID="FXw-ph-uLu">
             <objects>
-                <controller id="qRE-M7-5yx">
+                <controller identifier="ingredientesIdentificador" id="qRE-M7-5yx" customClass="IngredientesInterfaceController" customModule="Pizzas2WK_Extension">
                     <items>
                         <label width="136" height="43" alignment="left" text="Elige hasta 5 ingredientes" textAlignment="center" numberOfLines="2" id="Ruu-lM-A5O"/>
-                        <button width="1" alignment="left" title="Jamón" id="jwr-Kg-Te0"/>
-                        <button width="1" alignment="left" title="Pavo" id="qbF-Zv-uM7"/>
-                        <button width="1" alignment="left" title="Tocino" id="LED-7W-0gN"/>
-                        <button width="1" alignment="left" title="Aceituna" id="IK6-H8-yA5"/>
-                        <button width="1" alignment="left" title="Pepperoni" id="FWw-50-jsu"/>
-                        <button width="1" alignment="left" title="Pimiento" id="lOP-fs-tMb"/>
-                        <button width="1" alignment="left" title="Anchoa" id="gwD-6M-7gg"/>
-                        <button width="1" alignment="left" title="Piña" id="w6z-sR-s9C"/>
-                        <button width="1" alignment="left" title="Cebolla" id="ZZB-11-4CE"/>
-                        <button width="1" alignment="left" title="Salchicha" id="IK2-yE-nCk"/>
+                        <button width="1" alignment="left" title="Jamón" id="jwr-Kg-Te0">
+                            <connections>
+                                <action selector="jamon" destination="qRE-M7-5yx" id="wyj-t2-Coj"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Pavo" id="qbF-Zv-uM7">
+                            <connections>
+                                <action selector="pavo" destination="qRE-M7-5yx" id="EFe-eK-gBC"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Tocino" id="LED-7W-0gN">
+                            <connections>
+                                <action selector="tocino" destination="qRE-M7-5yx" id="rQu-xJ-pKg"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Aceituna" id="IK6-H8-yA5">
+                            <connections>
+                                <action selector="aceituna" destination="qRE-M7-5yx" id="Dfo-4A-WtZ"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Pepperoni" id="FWw-50-jsu">
+                            <connections>
+                                <action selector="pepperoni" destination="qRE-M7-5yx" id="cOV-Ve-j6K"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Pimiento" id="lOP-fs-tMb">
+                            <connections>
+                                <action selector="pimiento" destination="qRE-M7-5yx" id="LEO-zw-eg0"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Anchoa" id="gwD-6M-7gg">
+                            <connections>
+                                <action selector="anchoa" destination="qRE-M7-5yx" id="gX4-bE-BWA"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Piña" id="w6z-sR-s9C">
+                            <connections>
+                                <action selector="pina" destination="qRE-M7-5yx" id="ZZg-7x-gMo"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Cebolla" id="ZZB-11-4CE">
+                            <connections>
+                                <action selector="cebolla" destination="qRE-M7-5yx" id="GSz-vc-A5M"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Salchicha" id="IK2-yE-nCk">
+                            <connections>
+                                <action selector="salchicha" destination="qRE-M7-5yx" id="s0t-FG-XaR"/>
+                            </connections>
+                        </button>
                         <label width="136" alignment="left" text="Selección:" textAlignment="center" id="W4g-zA-0kj"/>
-                        <label width="136" alignment="left" text="Label" textAlignment="center" id="3rO-qJ-qLA"/>
-                        <label width="136" alignment="left" text="Label" textAlignment="center" id="CaE-6S-rgY"/>
-                        <label width="136" alignment="left" text="Label" textAlignment="center" id="2Bm-Kk-D0Y"/>
-                        <label width="136" alignment="left" text="Label" textAlignment="center" id="EN0-fe-BBc"/>
-                        <label width="136" alignment="left" text="Label" textAlignment="center" id="iNo-uO-mde"/>
-                        <button width="1" alignment="left" title="Finalizar" id="LLg-9l-X5e"/>
+                        <group width="1" height="33" alignment="left" id="Q1M-JX-euE">
+                            <items>
+                                <label width="82" height="42" alignment="left" textAlignment="center" id="3rO-qJ-qLA"/>
+                                <button width="51" height="43" alignment="left" title="Borrar" id="AVD-7U-GMP">
+                                    <fontDescription key="font" type="system" pointSize="9"/>
+                                    <connections>
+                                        <action selector="borrarI1" destination="qRE-M7-5yx" id="POG-Ph-v8V"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="33" alignment="left" id="hHh-Al-5mj">
+                            <items>
+                                <label width="82" height="52" alignment="left" textAlignment="center" id="a10-O1-iye"/>
+                                <button width="51" height="44" alignment="left" title="Borrar" id="Ngv-L9-eS2">
+                                    <fontDescription key="font" type="system" pointSize="9"/>
+                                    <connections>
+                                        <action selector="borrarI2" destination="qRE-M7-5yx" id="9Ph-uE-3d6"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="33" alignment="left" id="MVU-Hn-l12">
+                            <items>
+                                <label width="82" height="49" alignment="left" textAlignment="center" id="hq0-dp-Xu5"/>
+                                <button width="51" height="45" alignment="left" title="Borrar" id="mo4-1W-n5t">
+                                    <fontDescription key="font" type="system" pointSize="9"/>
+                                    <connections>
+                                        <action selector="borrarI3" destination="qRE-M7-5yx" id="2TA-Hw-A9I"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="33" alignment="left" id="bp0-4S-sDP">
+                            <items>
+                                <label width="82" height="49" alignment="left" textAlignment="center" id="sdk-ms-36G"/>
+                                <button width="51" height="46" alignment="left" title="Borrar" id="KYS-U6-XVz">
+                                    <fontDescription key="font" type="system" pointSize="9"/>
+                                    <connections>
+                                        <action selector="borrarI4" destination="qRE-M7-5yx" id="roy-gb-2gw"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="33" alignment="left" id="ZOV-82-ynD">
+                            <items>
+                                <label width="82" height="54" alignment="left" textAlignment="center" id="5D5-U7-rXR"/>
+                                <button width="51" height="44" alignment="left" title="Borrar" id="9Wk-Ap-3Ne">
+                                    <fontDescription key="font" type="system" pointSize="9"/>
+                                    <connections>
+                                        <action selector="borrarI5" destination="qRE-M7-5yx" id="BPP-V2-ZQi"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <separator alignment="left" id="Qet-jv-H5V"/>
+                        <button width="1" alignment="left" title="Finalizar" id="0Mr-Ol-gZf">
+                            <connections>
+                                <action selector="finalizar" destination="qRE-M7-5yx" id="Yks-tA-Ndw"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="ingrediente1L" destination="3rO-qJ-qLA" id="LGn-Oh-nUe"/>
+                        <outlet property="ingrediente2L" destination="a10-O1-iye" id="rOP-GA-S2p"/>
+                        <outlet property="ingrediente3L" destination="hq0-dp-Xu5" id="YQz-M6-bTC"/>
+                        <outlet property="ingrediente4L" destination="sdk-ms-36G" id="bHV-5Q-XOX"/>
+                        <outlet property="ingrediente5L" destination="5D5-U7-rXR" id="rYR-9V-j8Q"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1273" y="419.5"/>
+        </scene>
+        <!--comprobaciónIdentificador-->
+        <scene sceneID="NHJ-2S-n32">
+            <objects>
+                <controller identifier="comprobaciónIdentificador" id="gOs-ar-2xB" customClass="ComprobaciónInterfaceController" customModule="Pizzas2WK_Extension">
+                    <items>
+                        <label width="136" alignment="left" text="Tus elecciones" textAlignment="center" id="uyY-g1-eNb"/>
+                        <group width="1" alignment="left" id="u7C-AV-YpE">
+                            <items>
+                                <label alignment="left" text="Tamaño:" id="eHf-HL-NVE"/>
+                                <label alignment="left" text="Label" id="nHQ-CC-0d1"/>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Cambiar" id="OeZ-m9-Wl4">
+                            <connections>
+                                <action selector="cambiarTamaño" destination="gOs-ar-2xB" id="Kus-D1-y8J"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="ZiU-YD-LBI"/>
+                        <group width="1" alignment="left" id="zS1-hz-Yea">
+                            <items>
+                                <label alignment="left" text="Masa:" id="m78-so-tkO"/>
+                                <label alignment="left" text="Label" id="buY-7t-Pf7"/>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Cambiar" id="5eY-tD-BSU">
+                            <connections>
+                                <action selector="cambiarMasa" destination="gOs-ar-2xB" id="03T-wf-17h"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="zlq-gb-tTn"/>
+                        <group width="1" alignment="left" id="Vfw-bA-RHa">
+                            <items>
+                                <label alignment="left" text="Queso:" id="HIg-si-tak"/>
+                                <label alignment="left" text="Label" id="R6u-GU-ztR"/>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Cambiar" id="fBO-mI-kWk">
+                            <connections>
+                                <action selector="cambiarQueso" destination="gOs-ar-2xB" id="jmI-mY-oWq"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="JkZ-Ck-fDs"/>
+                        <label alignment="left" text="Ingredientes:" id="UUC-Ik-AD3"/>
+                        <group width="1" alignment="left" id="Pab-oC-Hig">
+                            <items>
+                                <label width="67" alignment="left" text="Label" textAlignment="center" id="naN-cm-3KI"/>
+                                <label width="67" alignment="left" text="Label" textAlignment="center" id="L8c-u4-57Y"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="3mP-II-aA2">
+                            <items>
+                                <label width="67" alignment="left" text="Label" textAlignment="center" id="uuG-t7-qc3"/>
+                                <label width="67" alignment="left" text="Label" textAlignment="center" id="dBX-Rg-mse"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="s2K-C6-W48">
+                            <items>
+                                <label width="67" alignment="left" text="Label" textAlignment="center" id="cbD-Ma-NsG"/>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Cambiar" id="mMm-D7-aIs">
+                            <connections>
+                                <action selector="cambiarIngrediente" destination="gOs-ar-2xB" id="xf4-DZ-Ttf"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="91u-Up-gEp"/>
+                        <button width="1" alignment="left" title="Comprar" id="iwv-4F-tAv">
+                            <connections>
+                                <action selector="comprar" destination="gOs-ar-2xB" id="GWj-ou-1L2"/>
+                            </connections>
+                        </button>
+                        <label width="136" height="61" alignment="left" textAlignment="center" numberOfLines="2" id="kds-kn-568">
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="alerta" destination="kds-kn-568" id="2Aj-5K-n48"/>
+                        <outlet property="comprarB" destination="iwv-4F-tAv" id="Cka-ha-zN4"/>
+                        <outlet property="ingrediente1L" destination="naN-cm-3KI" id="t1Z-Zd-deL"/>
+                        <outlet property="ingrediente2L" destination="uuG-t7-qc3" id="Hlt-CP-195"/>
+                        <outlet property="ingrediente3L" destination="cbD-Ma-NsG" id="l05-cy-kk6"/>
+                        <outlet property="ingrediente4L" destination="L8c-u4-57Y" id="Xob-nU-svy"/>
+                        <outlet property="ingrediente5L" destination="dBX-Rg-mse" id="MUO-Jn-fxG"/>
+                        <outlet property="masaL" destination="buY-7t-Pf7" id="6xO-Cx-tpb"/>
+                        <outlet property="quesoL" destination="R6u-GU-ztR" id="Krv-QE-hie"/>
+                        <outlet property="tamañoL" destination="nHQ-CC-0d1" id="3Ro-V4-6lJ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1553" y="370"/>
+        </scene>
+        <!--finalIdentificador-->
+        <scene sceneID="fVK-Ju-MRf">
+            <objects>
+                <controller identifier="finalIdentificador" id="wxb-bv-diq" customClass="FinalInterfaceController" customModule="Pizzas2WK_Extension">
+                    <items>
+                        <label width="136" height="73" alignment="left" text="Gracias por tu compra!" textAlignment="center" numberOfLines="2" id="rye-Me-zn2"/>
+                        <button width="1" alignment="left" title="Volver al inicio" id="2UR-eD-Hq5">
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="Jx9-pj-Trc"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="1273" y="355"/>
-        </scene>
-        <!--Interface Controller-->
-        <scene sceneID="NHJ-2S-n32">
-            <objects>
-                <controller id="gOs-ar-2xB"/>
-            </objects>
-            <point key="canvasLocation" x="1553" y="349"/>
-        </scene>
-        <!--Interface Controller-->
-        <scene sceneID="fVK-Ju-MRf">
-            <objects>
-                <controller id="wxb-bv-diq"/>
-            </objects>
             <point key="canvasLocation" x="1844" y="349"/>
-        </scene>
-        <!--Interface Controller-->
-        <scene sceneID="Xk1-DH-ucf">
-            <objects>
-                <controller id="J1h-qh-0W9"/>
-            </objects>
-            <point key="canvasLocation" x="2101" y="349"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">

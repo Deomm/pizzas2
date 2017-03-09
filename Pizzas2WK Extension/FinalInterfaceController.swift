@@ -1,5 +1,5 @@
 //
-//  Masa.swift
+//  FinalInterfaceController.swift
 //  Pizzas2
 //
 //  Created by David Osses Mena on 08-03-17.
@@ -10,8 +10,17 @@ import WatchKit
 import Foundation
 
 
-class Masa: WKInterfaceController {
+class FinalInterfaceController: WKInterfaceController {
 
+    var tamaño : String = ""
+    var masa : String = ""
+    var queso : String = ""
+    var ingrediente1: String = ""
+    var ingrediente2 : String = ""
+    var ingrediente3 : String = ""
+    var ingrediente4 : String = ""
+    var ingrediente5 : String = ""
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
